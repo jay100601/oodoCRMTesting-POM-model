@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="FreeCRM Automation Testing Suite">
+	
+	
+	
+	
+	<test name="FreeCRM Automation Testing Suite">
+		<classes>
+			<class name="fcm.qa.testcases.LoginPageTest" />
+			<class name="fcm.qa.testcases.HomePageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

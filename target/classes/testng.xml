@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="FreeCRM Automation Testing Suite">
+	
+	
+	<listeners>
+		<listener class-name="fcm.qa.ExtentReportListener.ExtentReportListener" />
+	</listeners>
+	
+	<test name="FreeCRM Automation Testing Suite">
+		<classes>
+			<class name="fcm.qa.testcases.LoginPageTest" />
+			<class name="fcm.qa.testcases.HomePageTest" />
+			<class name="fcm.qa.testcases.DiscussPageTest" />
+			<class name="fcm.qa.testcases.ContactPageTest" />
+			<class name="fcm.qa.testcases.CalenderPageTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

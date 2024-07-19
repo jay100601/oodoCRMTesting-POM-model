@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="1" name="Failed suite [Surefire suite]" verbose="0">
+  <test thread-count="1" name="Surefire test(failed)" verbose="0">
+    <classes>
+      <class name="fcm.qa.testcases.ContactPageTest">
+        <methods>
+          <include name="verifyContactCreated"/>
+          <include name="validatePageTitle"/>
+          <include name="closeBrowser"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- fcm.qa.testcases.ContactPageTest -->
+      <class name="fcm.qa.testcases.CalenderPageTest">
+        <methods>
+          <include name="validatebookedMeetingTest"/>
+          <include name="bookMeetingTest"/>
+          <include name="setUp"/>
+          <include name="validatePageTitleTest"/>
+          <include name="closeCalenederPage"/>
+        </methods>
+      </class> <!-- fcm.qa.testcases.CalenderPageTest -->
+    </classes>
+  </test> <!-- Surefire test(failed) -->
+</suite> <!-- Failed suite [Surefire suite] -->
